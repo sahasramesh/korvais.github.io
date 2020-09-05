@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap');
+
+body {
+  margin:0px;
+  font-family: 'Inter', sans-serif;
+}
+
+.bluebox {
+  background-color: #3572B0;
+}
+
+h1 {
+  font-weight: normal;
+  color: white;
+  font-size: 60px;
+  padding: 50px;
+}
+
+h2 {
+  padding: 40px;
+  color: #A2B9ED;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+a.mail {
+  text-decoration: none;
+  color: white;
+}
+
+a.mail:hover {
+  text-decoration: underline;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  display: inline-block;
+  padding-right: 30px;
+}
