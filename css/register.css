@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
 
 body {
   margin: 0px;
@@ -11,60 +11,29 @@ body {
 }
 
 .headerp {
-  font-weight: bold;
+  font-weight: 600;
   color: black;
   font-size: 30px;
   padding: 0px;
   margin: 30px;
 }
 
-.notlocations {
+.center {
+  padding: 24px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  border-radius: 56px;
+  background-color: white;
+}
+
+h1 {
   font-weight: bold;
-  color: white;
-  font-size: 50px;
-  margin: 36px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.locations {
-  font-weight: bold;
-  color: white;
-  font-size: 50px;
-  margin: 40px;
-  padding-top: 40px;
-}
-
-h2 {
-  font-weight: normal;
-  color: white;
-  font-size: 50px;
-  margin: 36px;
-}
-
-a.mail {
-  text-decoration: none;
-  color: white;
-}
-
-a.mail:hover {
-  text-decoration: underline;
-}
-
-.scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-.scrolling-wrapper::-webkit-scrollbar {
-  display: none;
-}
-
-.card {
-  display: inline-block;
-  padding-right: 30px;
+  color: #274488;
+  font-size: 70px;
+  margin: 12px;
 }
 
 @media screen and (max-width: 980px) {
