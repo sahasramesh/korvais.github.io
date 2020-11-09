@@ -1,24 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 body {
-  margin:0px;
-  font-family: 'Inter', sans-serif;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.bluebox {
-  background-color: #3572B0;
+.background {
+  margin: 0px;
+  background-image: linear-gradient(#274488, #A2B9ED);
+}
+
+.headerp {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  padding: 0px;
+  margin: 30px;
+}
+
+.sectiontitle {
+  float: left;
+}
+
+.descbox {
+  clear: both;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
+  width: 90%;
+  text-align: left;
+  border-radius: 64px;
+  background-color: white;
+}
+
+.desc {
+  font-weight: normal;
+  color: black;
+  font-size: 24px;
 }
 
 h1 {
   font-weight: bold;
-  color: black;
-  font-size: 5vw;
+  color: white;
+  font-size: 60px;
   padding: 30px;
 }
 
 h2 {
-  padding: 40px;
-  color: #A2B9ED;
+  text-align: left;
+  float: right;
+  padding: 20px;
+  color: white;
   font-size: 50px;
   font-weight: bold;
 }
