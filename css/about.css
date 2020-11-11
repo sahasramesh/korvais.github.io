@@ -6,6 +6,11 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+a.header {
+  text-decoration: none;
+  color: black;
+}
+
 .background {
   margin: 0px;
   background-image: linear-gradient(#A2B9ED, #CBD9F9);
@@ -23,7 +28,7 @@ html, body {
   float: left;
   padding: 20px 30px;
   margin-top: 50px;
-  width: 70%;
+  width: 76%;
   text-align: left;
   border-radius: 56px;
   background-color: white;
