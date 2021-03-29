@@ -5,6 +5,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+a.header {
+  text-decoration: none;
+  color: white;
+}
+
 .background {
   margin: 0px;
   background-image: linear-gradient(#3472AF, #A2B8ED);
