@@ -5,11 +5,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-a.header {
-  text-decoration: none;
-  color: white;
-}
-
 .background {
   height: 100%;
   background-image: linear-gradient(#A2B9ED, #CBD9F9);
